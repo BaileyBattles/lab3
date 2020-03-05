@@ -108,6 +108,7 @@ void setup() {
     //loop through the trajectory and carry out the specified motion
     //an example trajectory would be 2.15,r,0.60, which would correspond
     //to turning right for 2.15 seconds and going forward for 0.6 seconds
+    delay(10000);
     int strLen = trajectories.length();
     int trajectoryLength = 12;
     for (int i = 0; i < strLen; i += trajectoryLength) {
